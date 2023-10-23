@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"><head>
+    <meta charset="UTF-8">
+    <title>Gosler | My page</title>
+</head>
+<body>
+    <div th:align="center">
+        <span>Name: </span><span th:text="${userEntity.name}"></span><br/>
+        <span>Surname: </span><span th:text="${userEntity.surname}"></span><br/>
+        <span>Username: </span><span th:text="${userEntity.username}"></span><br/>
+        <span>Email: </span><span th:text="${userEntity.email}"></span><br/>
+    </div>
+</body>
+</html>
